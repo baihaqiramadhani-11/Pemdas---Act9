@@ -15,3 +15,10 @@ public:
         cout << "Pesan dari Joko" << endl;
     }
 };
+
+class lia :public seseorang {
+public:
+    void pesan(){
+        cout << "Pesan dari Lia" << endl;
+    }
+};
